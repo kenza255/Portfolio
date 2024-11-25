@@ -13,7 +13,7 @@ export default function About() {
               Étudiante à Epitech Lyon
             </h2>
             <p className="text-lg text-stone-600 mb-6">
-              À la recherche d'une alternance en développement web à partir de janvier 2025.
+              À la recherche d'une alternance en développement web à partir de janvier 2025. .
             </p>
             <div className="space-x-4 flex justiy-center">
               <button
@@ -41,7 +41,7 @@ export default function About() {
           </div>
         </div>
 
-        {/* Modal */}
+  
         {isModalOpen && (
           <div className="fixed inset-0 z-50 overflow-y-auto bg-black bg-opacity-50">
             <div className="flex items-center justify-center min-h-screen px-4">

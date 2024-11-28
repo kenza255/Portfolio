@@ -1,5 +1,6 @@
 import { Download, X } from 'lucide-react';
 import { useState } from 'react';
+import me from '../FILE/me.jpeg'; 
 
 export default function About() {
   const [isModalOpen, setIsModalOpen] = useState(false);

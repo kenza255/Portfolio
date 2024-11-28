@@ -1,4 +1,4 @@
-# Portfolio - [AOUICHA Kenza]
+# Portfolio - AOUICHA Kenza
 
 Bienvenue sur mon portfolio ! L'aventure du web vient tout juste de commencer pour moi et ce site est une vitrine de mes compétences en dev, de mes projets passés et de mes réalisations. Ce projet est conçu pour présenter mes travaux et me permettre de partager mes compétences avec d'autres professionnels et recruteurs.
 

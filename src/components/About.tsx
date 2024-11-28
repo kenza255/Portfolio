@@ -9,7 +9,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
           <div>
-            <h2 className="text-3xl font-cormorant text-stone-800 mb-6">
+            <h2 className="text-3xl text-stone-800 mb-6">
               Étudiante à Epitech Lyon
             </h2>
             <p className="text-lg text-stone-600 mb-6">

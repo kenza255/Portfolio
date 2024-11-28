@@ -1,8 +1,8 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
 
 @layer base {
   html {
@@ -10,7 +10,12 @@
   }
   
   body {
+    font-family: 'Roboto', sans-serif;
     background-color: lightgray;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
   }
   }
 

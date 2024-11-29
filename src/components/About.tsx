@@ -35,7 +35,7 @@ export default function About() {
           </div>
           <div className="mt-10 lg:mt-0">
             <img
-              src="src/FILE/me.jpeg" 
+              src="../src/FILE/me.jpeg" 
               alt="Photo de moi"
               className="rounded-lg shadow-xl w-full"
             />

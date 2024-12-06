@@ -1,4 +1,4 @@
-import { Code, Play, FilePen } from 'lucide-react';
+import { Code, Play, FilePen, Newspaper, Github } from 'lucide-react';
 
 export default function Projects() {
   const projects = [
@@ -7,14 +7,17 @@ export default function Projects() {
       description: "Un site web réalisé en HTML, CSS et JavaScript pour afficher et interagir avec des annonces d'emploi.",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80",
       tech: ["HTML", "CSS", "JavaScript", "MySQL", "Node.js", "Express"],
-      icon: <Code className="w-6 h-6" />
+      icon: <Code className="w-6 h-6" />,
+      link: "https://github.com/kenza255/My-project"
     },
     {
       title: "Jeu inspiré du mythe d'Orphée",
       description: "Un jeu vidéo en JavaFX avec des animations et des énigmes.",
       image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
       tech: ["Java", "JavaFX"],
-      icon: <Play className="w-6 h-6" />
+      icon: <Play className="w-6 h-6" />,
+      link: "https://github.com/kenza255/Orph-e-Game"
+      
     },
 
     {
@@ -22,8 +25,19 @@ export default function Projects() {
       description: "Lors de la piscine Web à Epitech, j'ai du recréer mon CV en utilisant les technologies que je souhaitais",
       image: "https://plus.unsplash.com/premium_photo-1683531060766-c460adea7010?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y3VycmljdWx1bSUyMHZpdGFlfGVufDB8fDB8fHww",
       tech: ["HTML", "CSS"],
-      icon: <FilePen className="w-6 h-6" />
+      icon: <FilePen className="w-6 h-6" />,
+      link: "https://github.com/kenza255/My-resume"
+    },
+
+    {
+      title: "Mini Blog",
+      description: "Mini blog sur l'aide à la recherche d'une alternance",
+      image: "https://images.unsplash.com/photo-1542435503-956c469947f6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1pbmklMjBibG9nfGVufDB8fDB8fHww",
+      tech: ["React", "Typescript", "Node.js", "Express", "MySQL"],
+      icon: <Newspaper className="w-6 h-6" />,
+      link: "https://github.com/kenza255/MyTinyBlog"
     }
+
   ];
 
   return (
@@ -55,12 +69,22 @@ export default function Projects() {
                   {project.tech.map((tech, techIndex) => (
                     <span
                       key={techIndex}
-                      className="px-3 py-1 bg-stone-100 text-stone-600 rounded-full text-sm"
+                      className="px-3 py-1 bg-stone-100 text-stone-600 rounded-full text-sm mb-4"
                     >
                       {tech}
                     </span>
+
+                    
+
                   ))}
+                  
                 </div>
+                <div className='flex justify-center m-2'>
+                  <a href={project.link}>
+                     <Github />
+
+                     </a>
+                  </div>
               </div>
             </div>
           ))}

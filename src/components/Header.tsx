@@ -1,6 +1,6 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
-import logo from '../FILE/logo-portfolio.png'; 
+import logo from '../src/FILE/logo-portfolio.png'; 
 
 
 export default function Header() {

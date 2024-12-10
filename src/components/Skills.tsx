@@ -20,7 +20,7 @@ export default function Skills() {
    
     {
       category: "Logiciel",
-      items: ["GitHub", "VSCode", "Postman", "Notion", "Canva"],
+      items: ["GitHub", "VSCode", "Postman", "Notion", "Canva", "Gantt"],
       icon: <Terminal className="w-6 h-6" />
     },
     {

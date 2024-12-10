@@ -79,7 +79,7 @@ export default function Projects() {
                   ))}
                   
                 </div>
-                <div className='flex justify-center m-2'>
+                <div className='flex justify-center'>
                   <a href={project.link}>
                      <Github />
 

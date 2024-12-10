@@ -18,7 +18,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <span>
-          <img src="../src/FILE/logo-portfolio.png" className='w-10 h-10' />
+          <img src="./src/FILE/logo-portfolio.png" className='w-10 h-10' />
           </span>
           {/* Desktop Navigation */}
           <nav className="hidden md:block">
